@@ -36,8 +36,17 @@ class AppTheme {
         bodyMedium: GoogleFonts.alegreyaSans(
           fontSize: FontSizes.standard,
           color: Colors.white,
-        )
-      )
-    )
+        ),
+        bodyLarge: GoogleFonts.alegreySans(
+          fontSize: FontSizes.large,
+          color: Colors.white,
+        ),
+        titleSmall: GoogleFonts.alegreySans(
+          fontSize: FontSizes.extralarge,
+          color: Colors.black,
+          fontWeight: FontWeight.bold
+        ),
+      ),
+    );
   }
 }
